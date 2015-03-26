@@ -1,6 +1,7 @@
-vid = VideoReader('face.mp4');
+ vid = VideoReader('face.mp4');
 
-ori = im_read(vid);
+ ori = im_read(vid);
+%load ori_data.mat
 new_filtered = amplifier(vid,ori);
 
 vidOut = VideoWriter('tk');
