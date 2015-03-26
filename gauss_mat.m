@@ -1,4 +1,4 @@
-function new_img = gauss(img)
+function new_img = gauss_mat(img)
 
 myfilter = fspecial('gaussian',[3 3], 0.5);
 

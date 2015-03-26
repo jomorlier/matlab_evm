@@ -3,7 +3,9 @@ function new_filtered = amplifier(vid,ori)
 % Amplify ratio configurable
 % Bandpass location configurable
 
-data = stack2yiq(vid,ori);
+% data = stack2yiq(vid,ori);
+load gauss.mat
+data = gauss;
 
 fl = 5/6;
 fh = 1;
